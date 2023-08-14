@@ -36,6 +36,9 @@ conclusion
 
     - we can directly use the mysql using the terminal with the help of the command. (sudo mysql)
     - Now we are storing the data in the instance directly 
+     Video:
+        https://www.youtube.com/watch?v=ShGoNXxrUY8
+
     
 
     

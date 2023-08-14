@@ -2,8 +2,8 @@
 Installing the mysql in the linux distribution (ubuntu)   
     1. sudo apt update
     2. sudo apt install mysql-server
-    3. sudo apt systemctl status mysql.service
-    4. sudo apt systemctl start mysql.service (if status is inactive)
+    3. sudo  systemctl status mysql.service
+    4. sudo  systemctl start mysql.service (if status is inactive)
 
 command to open mysql
     1. sudo mysql
