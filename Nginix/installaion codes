@@ -1,0 +1,15 @@
+1.sudo apt update 
+2.sudo apt install nginx
+3.sudo ufw app list
+    Nginx Full: This profile opens both port 80 (normal, unencrypted web traffic) and port 443 (TLS/SSL encrypted traffic)
+    Nginx HTTP: This profile opens only port 80 (normal, unencrypted web traffic)
+    Nginx HTTPS: This profile opens only port 443 (TLS/SSL encrypted traffic)
+
+4. sudo ufw allow 'Nginx Http'
+5. sudo ufw status
+6. sudo systemctl status nginx
+7. sudo mkdir -p /var/www/ your_domain/html
+8.sudo vi /var/www/ your_domain/html/index.html
+9.edit the root path in the /etc/nginx/sites-eneabled
+10 sudo nginx -t
+11. sudo systemctl restart nginx
